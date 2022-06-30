@@ -1,0 +1,64 @@
+.container {
+    width: 37%;
+    border: 1px solid turquoise;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 150px;
+    background: linear-gradient(
+      109.6deg,
+      rgb(185, 212, 242) 11.2%,
+      rgb(244, 210, 226) 100.3%
+    );
+  }
+  .form-control {
+    display: inline-block;
+    border-radius: 6px;
+    color: rgba(39,33,66,.4);
+    font-size: 16px;
+    background:#e7eaf6;
+    
+}
+  
+  #search-button
+  {
+   margin-left: 10px;
+   border-radius: 6px;
+   background:rgb(185, 212, 242);
+}
+.form-control,
+#search-button {
+    padding: 15px 20px;
+    height: 50px;
+    line-height: 20px;
+    border:none;
+}
+.weather-description{
+    text-transform: capitalize;
+}
+.weather-description,
+  .date-information{
+    margin-left: 18px;
+  }
+  .main-temperature, .unit {
+    margin-top: 90px;
+  }
+  h5 {
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+  .humidity, .wind {
+    margin-left: 25px;
+  }
+  .open-source-code{
+    margin-left: 430px;
+  }
+
+  .weather-temperature .active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+  }
+  
+  #celsius-link:hover {
+    text-decoration: none;
+  }
